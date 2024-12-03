@@ -65,7 +65,7 @@ Clonar o Repositório
 
 bash
 Copy code
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/alisson10000/modelo.git
 Configurar o Banco de Dados
 
 Crie uma base de dados no MySQL.
