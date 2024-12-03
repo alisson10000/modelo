@@ -1,0 +1,71 @@
+/* Estilo para formulário que ocupa toda a tela */
+.formularios {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.formularios select, 
+.formularios input, 
+.formularios submit, 
+.formularios button {
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.formularios select:focus, 
+.formularios input:focus, 
+.formularios button:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+.formularios input:hover, 
+.formularios button:hover, 
+.formularios select:hover {
+    background-color: #e6f0ff;
+}
+
+.formularios button {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.formularios button:hover {
+    background-color: #003f8a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.formularios button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .formularios select, 
+    .formularios input, 
+    .formularios submit, 
+    .formularios button {
+        height: 45px;
+        font-size: 0.9rem;
+    }
+}

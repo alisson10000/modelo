@@ -1,0 +1,35 @@
+/* Menu de navegação */
+.navbar {
+    background-color: #0056b3; /* Azul harmonioso com o formulário */
+    font-family: Arial, sans-serif;
+}
+
+.navbar .nav-link {
+    color: white; /* Cor do texto padrão */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-transform: uppercase;
+    border-radius: 5px; /* Bordas suaves */
+}
+
+/* Efeito hover no link do menu */
+.navbar .nav-link:hover {
+    background-color: #003f8a; /* Azul mais escuro */
+    color: #f9f9f9; /* Branco suave */
+}
+
+/* Link ativo */
+.navbar .nav-link.active {
+    background-color: #003f8a; /* Azul mais escuro para indicar seleção */
+    color: #e6f0ff; /* Azul claro */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar .nav-link {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+}

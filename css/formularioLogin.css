@@ -1,0 +1,89 @@
+/* 
+    Atualizado em : 03 de Dezembro de 2024
+    Autor         : Alisson
+*/
+
+.formulario {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin-top: 2%;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formulario input, 
+.formulario button {
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    padding: 0 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.formulario input:focus, 
+.formulario button:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 86, 179, 0.5);
+}
+
+.formulario input:hover, 
+.formulario button:hover {
+    background-color: #f0f4ff;
+}
+
+.formulario button {
+    width: 100%;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.formulario button:hover {
+    background-color: #003f8a;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.formulario button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.formulario label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.formulario small {
+    font-size: 0.8rem;
+    color: #888;
+    display: block;
+    margin-top: -10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .formulario {
+        padding: 15px;
+        margin-top: 5%;
+    }
+    
+    .formulario input, 
+    .formulario button {
+        height: 50px;
+    }
+}

@@ -1,0 +1,63 @@
+/* Estilo Moderno para Mensagens de Feedback */
+
+/* Estilo de Erro */
+.error {
+    border: 1px solid #d9534f; /* Vermelho suave */
+    background-color: #f9d6d5; /* Fundo leve */
+    color: #a94442; /* Vermelho escuro para texto */
+    padding: 10px 15px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word; /* Quebra de palavras longas */
+    word-wrap: break-word; /* Suporte adicional para navegadores mais antigos */
+    max-width: 90%; /* Limite de largura para telas pequenas */
+}
+
+/* Estilo de Sucesso */
+.accept {
+    border: 1px solid #5cb85c; /* Verde suave */
+    background-color: #dff0d8; /* Fundo leve */
+    color: #3c763d; /* Verde escuro para texto */
+    padding: 10px 15px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word; /* Quebra de palavras longas */
+    word-wrap: break-word; /* Suporte adicional para navegadores mais antigos */
+    max-width: 90%; /* Limite de largura para telas pequenas */
+}
+
+/* Estilo de Alerta */
+.alert {
+    border: 1px solid #f0ad4e; /* Amarelo suave */
+    background-color: #fcf8e3; /* Fundo leve */
+    color: #8a6d3b; /* Marrom escuro para texto */
+    padding: 10px 15px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word; /* Quebra de palavras longas */
+    word-wrap: break-word; /* Suporte adicional para navegadores mais antigos */
+    max-width: 90%; /* Limite de largura para telas pequenas */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .error, .accept, .alert {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+        margin: 15px auto;
+        border-radius: 6px;
+        max-width: 95%; /* Ajusta a largura em telas menores */
+    }
+}
