@@ -1,46 +1,46 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 18 de mai. de 2023, 16:35:33
-    Author     : Alisson
-*/
-*{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.topo img{
-   display: block;
-   margin-top: 0px;
-      width:25%;
-   height: 50%;
-}
-.topo{
 
+/* Topo */
+.topo {
     width: 100vw;
-    height:150px;
-    background-color:#10163f;
+    height: 200px; /* Aumentei a altura para destacar o topo */
+    background-color: #10163f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
 
+.topo img {
+    width: 15%; /* Reduzido para harmonizar com o design */
+    max-width: 150px; /* Limite de largura */
+    height: auto;
+    border-radius: 8px; /* Adicionado borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
 
-}
- .topo h1 , .topo h3{
-   
-}
-.topo h3{
- 
- color: white;
- text-transform: capitalize;
-}
-.topo h1{
-    color: white;
+.topo h1 {
+    color: #ffffff;
     text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
-.conteudoGeral{
+/* Conteúdo Geral */
+.conteudoGeral {
     width: 100vw;
-    height: 94vh;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 .conteudo{
     
