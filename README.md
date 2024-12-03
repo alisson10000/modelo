@@ -76,7 +76,7 @@ Certifique-se de ter um servidor local, como XAMPP ou WAMP.
 Executar o Projeto
 
 Coloque o projeto no diretório htdocs do servidor local.
-Acesse o sistema pelo navegador: http://localhost/seu-projeto.
+Acesse o sistema pelo navegador: https://github.com/alisson10000/modelo.
 🌟 Design e Estilo
 CSS Modularizado
 formulario.css e formularios.css: Estilizam formulários com foco em responsividade.
